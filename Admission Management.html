@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To RMD College</title>
+   >
+</head>
+<body>
+    <header>
+        <h1>College Admission Form</h1>
+    </header>
+    <nav>
+        <a href="https://rmd.ac.in/">Home</a>
+        <a href="https://rmd.ac.in/aboutus/rmkgroup.html">About us</a>
+        <a href="https://rmd.ac.in/academics/Courses_Offered.html">Courses offered </a>
+        <a href="https://rmd.ac.in/contact.html">Contact</a>
+    </nav>
+    <div >
+        <h2>Welcome to the RMD College Admission Management System</h2>
+        <h3>College Admission Application Form</h3>
+    <form action="Admission Management.html" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+        
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+        
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br><br>
+        
+        <label for="course">Select Course:</label>
+        <select id="course" name="course" required>
+            <option value="engineering">Engineering</option>
+            <option value="business">Business</option>
+            <option value="medicine">Medicine</option>
+        </select><br><br>
+        
+        <label for="marks">High School Marks (%):</label>
+        <input type="number" id="marks" name="marks" step="0.01" required><br><br>
+        
+        <label for="essay">Admission Essay:</label>
+        <textarea id="essay" name="essay" rows="4" required></textarea><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
